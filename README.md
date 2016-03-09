@@ -1,5 +1,7 @@
 # RecommendationSystem
-Some markdown from initial data exploration in ipython
+Some markdown from initial data exploration in ipython.
+
+Changed the file below to get just the restaurant categories
 
 
 ```python
@@ -739,7 +741,7 @@ df.stars.hist()
 
 
 
-![png](Yelp_Challenge/output_8_1.png)
+![png](Yelp Challenge/output_8_1.png)
 
 
 
@@ -954,7 +956,7 @@ df['attributes.Price Range'].hist()
 
 
 
-![png](Yelp_Challenge/output_11_1.png)
+![png](Yelp Challenge/output_11_1.png)
 
 
 
@@ -972,7 +974,7 @@ df['review_count'].hist()
 
 
 
-![png](Yelp_Challenge/output_12_1.png)
+![png](Yelp Challenge/output_12_1.png)
 
 
 
