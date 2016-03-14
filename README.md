@@ -1,4 +1,112 @@
 # RecommendationSystem
+
+Data Info Only for Phoenix area Restaurants:
+
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 2925 entries, 0 to 2924
+Data columns (total 98 columns):
+attributes.Ambience.divey                               2324 non-null object
+attributes.Dietary Restrictions.vegan                   21 non-null object
+attributes.Happy Hour                                   253 non-null object
+hours.Thursday.open                                     1781 non-null object
+attributes.Order at Counter                             89 non-null object
+attributes.Hair Types Specialized In.africanamerican    0 non-null float64
+attributes.Hair Types Specialized In.kids               0 non-null float64
+attributes.BYOB                                         142 non-null object
+hours.Friday.open                                       1784 non-null object
+attributes.Good For.latenight                           2643 non-null object
+attributes.Outdoor Seating                              2694 non-null object
+attributes.Alcohol                                      2529 non-null object
+attributes.Ambience.classy                              2322 non-null object
+attributes.By Appointment Only                          3 non-null object
+attributes.Parking.lot                                  2562 non-null object
+business_id                                             2925 non-null object
+attributes.Ambience.touristy                            2322 non-null object
+attributes.Corkage                                      104 non-null object
+hours.Tuesday.open                                      1762 non-null object
+attributes.Good For.brunch                              2636 non-null object
+categories                                              2925 non-null object
+attributes.Waiter Service                               2576 non-null object
+hours.Monday.open                                       1643 non-null object
+name                                                    2925 non-null object
+attributes.Parking.street                               2562 non-null object
+attributes.Ambience.hipster                             2322 non-null object
+attributes.BYOB/Corkage                                 236 non-null object
+attributes.Hair Types Specialized In.straightperms      0 non-null float64
+attributes.Music.live                                   119 non-null object
+attributes.Dietary Restrictions.dairy-free              21 non-null object
+attributes.Music.background_music                       76 non-null object
+attributes.Price Range                                  2811 non-null float64
+attributes.Good For.breakfast                           2644 non-null object
+attributes.Parking.garage                               2562 non-null object
+attributes.Music.karaoke                                78 non-null object
+attributes.Good For Dancing                             237 non-null object
+review_count                                            2925 non-null int64
+attributes.Hair Types Specialized In.asian              0 non-null float64
+state                                                   2925 non-null object
+attributes.Accepts Credit Cards                         2834 non-null object
+hours.Friday.close                                      1784 non-null object
+attributes.Good For.lunch                               2643 non-null object
+attributes.Parking.valet                                2562 non-null object
+attributes.Take-out                                     2771 non-null object
+full_address                                            2925 non-null object
+hours.Thursday.close                                    1781 non-null object
+attributes.Hair Types Specialized In.coloring           0 non-null float64
+attributes.Good For.dessert                             2635 non-null object
+attributes.Music.video                                  107 non-null object
+attributes.Dietary Restrictions.halal                   21 non-null object
+attributes.Takes Reservations                           2727 non-null object
+hours.Saturday.open                                     1713 non-null object
+attributes.Ages Allowed                                 2 non-null object
+attributes.Ambience.trendy                              2322 non-null object
+attributes.Delivery                                     2719 non-null object
+hours.Wednesday.close                                   1775 non-null object
+attributes.Wi-Fi                                        2094 non-null object
+open                                                    2925 non-null bool
+city                                                    2925 non-null object
+attributes.Wheelchair Accessible                        1585 non-null object
+attributes.Dietary Restrictions.gluten-free             21 non-null object
+stars                                                   2925 non-null float64
+attributes.Dietary Restrictions.kosher                  21 non-null object
+type                                                    2925 non-null object
+attributes.Caters                                       2020 non-null object
+attributes.Ambience.intimate                            2322 non-null object
+latitude                                                2925 non-null float64
+attributes.Good For.dinner                              2643 non-null object
+attributes.Coat Check                                   244 non-null object
+longitude                                               2925 non-null float64
+hours.Monday.close                                      1643 non-null object
+attributes.Hair Types Specialized In.extensions         0 non-null float64
+hours.Tuesday.close                                     1762 non-null object
+hours.Saturday.close                                    1713 non-null object
+attributes.Good for Kids                                2766 non-null object
+attributes.Parking.validated                            2562 non-null object
+hours.Sunday.open                                       1446 non-null object
+attributes.Accepts Insurance                            0 non-null float64
+attributes.Music.dj                                     204 non-null object
+attributes.Dietary Restrictions.soy-free                21 non-null object
+attributes.Has TV                                       2441 non-null object
+hours.Sunday.close                                      1446 non-null object
+attributes.Ambience.casual                              2322 non-null object
+attributes.Hair Types Specialized In.perms              0 non-null float64
+attributes.Dogs Allowed                                 283 non-null object
+attributes.Drive-Thru                                   479 non-null object
+attributes.Dietary Restrictions.vegetarian              21 non-null object
+hours.Wednesday.open                                    1775 non-null object
+attributes.Noise Level                                  2316 non-null object
+attributes.Smoking                                      245 non-null object
+attributes.Attire                                       2762 non-null object
+attributes.Hair Types Specialized In.curly              0 non-null float64
+attributes.Good For Groups                              2778 non-null object
+neighborhoods                                           2925 non-null object
+attributes.Open 24 Hours                                61 non-null object
+attributes.Ambience.romantic                            2322 non-null object
+attributes.Music.jukebox                                123 non-null object
+attributes.Ambience.upscale                             2313 non-null object
+
+
+
+
 Some markdown from initial data exploration in ipython.
 
 Changed the file below to get just the restaurant categories
