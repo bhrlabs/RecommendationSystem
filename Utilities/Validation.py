@@ -1,7 +1,7 @@
 import numpy as np
 
-x = 2925
-y = 64968
+x = 500
+y = 16146
 
 r = np.random.randint(2, size=(x, y))
 dt = np.random.randint(1, size=(x, y))
